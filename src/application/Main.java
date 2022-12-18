@@ -57,6 +57,8 @@ public class Main extends Application {
         mainStage.setTitle("BEJEWELED");
         mainStage.setScene(scene);
         mainStage.setResizable(false);
+	mainStage.getIcons().add(
+		new Image("application/resources/BejeweledIcon.png"));
         mainStage.show();
     }
     
